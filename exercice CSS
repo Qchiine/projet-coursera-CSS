@@ -1,0 +1,55 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our menu</title>
+    <style>
+        .frame {
+          border: 2px solid black;
+          padding: 20px;
+          margin: 10px;
+          display: inline-block;
+          width: 27%;
+          background: gray;
+          position: relative;
+        }
+        .case{
+          border: 2px solid black;
+          padding: 5px;
+          position: absolute;
+          right: 0;
+          top:0;
+        }
+        #blue{
+          background-color: blue;
+        }
+        #pink{
+          background-color: pink;
+        }
+        #purple{
+          background-color: purple;
+        }
+        h1{
+        text-align: center;
+      }
+
+      </style>
+<body>
+    <h1>Our menu</h1>
+    <div class="frame">
+      <div class="case" id="blue">chiken</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      <div class="frame">
+        <div class="case" id="pink">Beef</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      <div class="frame">
+        <div class="case" id="purple">Sushi</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      </body>
+      </html>
+</body>
+</html>
